@@ -1,0 +1,5 @@
+services:
+  spark-job:
+    build: .
+    volumes:
+      - ./out:/out
